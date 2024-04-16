@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+     {% extends "base.html" %}
+     {% load static %}
+</head>
+<body>
+{% block content %}
+    <div class="container">
+        <div class="mx-auto d-grid gap-2" style="margin-top: 45vh; width: 700px">
+            <table class="table table-hover bg-light">
+                <thead class="bg-info">
+                    <tr>
+                        <th scope="col">FIO</th>
+                        <th scope="col">Housings</th>
+                        <th scope="col">Sum of housings</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                <tr>
+                    <td class="text-center">#</td>
+                    <td class="text-center">Otoo</td>
+                    <td class="text-center">Otoo</td>
+                </tr>
+                <tr>
+                    <th scope="col">#</th>
+                    <td>Otoo</td>
+                    <td>Otoo</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{% endblock %}
+</body>
+</html>
